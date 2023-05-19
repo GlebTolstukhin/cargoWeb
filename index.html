@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header__upRow">
+            <div class="conteiner">
+                <div class="header__textRow header__textRow_center">
+                    <div class="header__lengMenu header__lengMenu_left">
+                        <button id="russianLeguage" class="lenguageButton lenguageButton_rus">РУС</button>
+                        <button id="englishLeguage" class="lenguageButton lenguageButton_eng">ENG</button>
+                    </div>
+                    <div class="header__phoneNumber header__phoneNumber_center">
+                        8 (800) 123-45-67
+                    </div>
+                    <a class="header__email header__email_right" href="page404.html">sales@log.ru</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__downRow">
+            <div class="conteiner">
+                <div class="header__content">
+                    <div class="header__logoRow">
+                        <a class="logo logo_left" href="page404.html">
+                            <img src="./img/logo.svg" alt="#">
+                        </a>
+                        <div class="header__splitter header__splitter_position"></div>
+                        <div class="header__placeholder header__placeholder_center">
+                            <img src="./img/placeholder.svg" alt="#">
+                        </div>
+                        <button id="oficesButton" class="header__ofices header__ofices_right">
+                            Наши офисы
+                        </button>
+                    </div>
+                    <ul class="header__list">
+                        <li><button id="serviceButton" class="header__link">УСЛУГИ</button></li>
+                        <li><button id="companyButton" class="header__link">О КОМПАНИИ</button></li>
+                        <li><button id="vacancyButton" class="header__link">ВАКАНСИИ</button></li>
+                        <li><button id="contactsButton" class="header__link">КОНТАКТЫ</button></li>
+                    </ul>
+                    
+                </div> 
+            </div>
+        </div>   
+    </header>
+    <div class="firstImg">
+        <div class="firstImg__block firstImg__block_center">
+            <h1 id="cargoTransportation" class="title title__margin">
+                Грузовые перевозки
+            </h1>
+            <h2 id="transportation" class="subTitle">
+                Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование, упаковка и хранение грузов
+            </h2>
+        </div>
+    </div>
+    <div class="secondImg">
+        <div class="conteiner">
+            <div class="secondImg__wrapper">
+                <div class="secondImg__column">
+                    <div class="splitter splitter__margin"></div>
+                    <h2 id="euroCargo" class="title title__secondImg">грузоперевозки по европе</h2>
+                    <h3 id="cantryes" class="subTitle subTitle__secondImg">Страны Евросоюза, а также Украина, Белоруссия со всеми документами.</h3>
+                    <a href="./page404.html" id="moreInfoButton" class="secondImg__button">Подробнее</a>
+                </div>
+                <div class="secondImg__swiper">
+                    <div class="swiper carSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="carSlide__img" src="./img/YellowCargoCar.svg" alt="#">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="carSlide__img" src="./img/YellowCargoCar.svg" alt="#">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="carSlide__img" src="./img/YellowCargoCar.svg" alt="#">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="carSlide__img" src="./img/YellowCargoCar.svg" alt="#">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="carSlide__img" src="./img/YellowCargoCar.svg" alt="#">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="carSlide__img" src="./img/YellowCargoCar.svg" alt="#">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="carSlide__img" src="./img/YellowCargoCar.svg" alt="#">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="carSlide__img" src="./img/YellowCargoCar.svg" alt="#">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="carSlide__img" src="./img/YellowCargoCar.svg" alt="#">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper__navigation">
+                        <button  class="swiper__button swiper__button-nextBuntton"> <span id="nextButton">СЛЕД</span><img src="./img/ArrowRight.svg" alt="#" class="arrowRight"></button>
+                        <button  class="swiper__button swiper__button-prevBuntton"><img src="./img/ArrowLeft.svg" alt="#" class="arrowLeft"><span id="prevButton">НАЗАД</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  class="thirdImg">
+        <div class="conteiner">
+            <div class="thirdImg__wrapper">
+                <div class="thirdImg__column">
+                    <div class="splitter splitter__margin"></div>
+                    <h2 id="service" class="title title__thirdImg">УСЛУГИ</h2>
+                </div>
+                <div class="serviceGrid">
+                    <div class="serviceGrid__element">
+                        <div class="element__hoveredIcon"></div>
+                        <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        <div class="serviceGrid___unhoveredElement">
+                            <img class="unhoveredElement__img" src="./img/whitePlane.svg" alt="">
+                            <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        </div>
+                    </div>
+                    <div class="serviceGrid__element">
+                        <div class="element__hoveredIcon"></div>
+                        <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        <div class="serviceGrid___unhoveredElement">
+                            <img class="unhoveredElement__img" src="./img/whitePlane.svg" alt="">
+                            <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        </div>
+                    </div>
+                    <div class="serviceGrid__element">
+                        <div class="element__hoveredIcon"></div>
+                        <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        <div class="serviceGrid___unhoveredElement">
+                            <img class="unhoveredElement__img" src="./img/whitePlane.svg" alt="">
+                            <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        </div>
+                    </div>
+                    <div class="serviceGrid__element">
+                        <div class="element__hoveredIcon"></div>
+                        <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        <div class="serviceGrid___unhoveredElement">
+                            <img class="unhoveredElement__img" src="./img/whitePlane.svg" alt="">
+                            <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        </div>
+                    </div>
+                    <div class="serviceGrid__element">
+                        <div class="element__hoveredIcon"></div>
+                        <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        <div class="serviceGrid___unhoveredElement">
+                            <img class="unhoveredElement__img" src="./img/whitePlane.svg" alt="">
+                            <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        </div>
+                    </div>
+                    <div class="serviceGrid__element">
+                        <div class="element__hoveredIcon"></div>
+                        <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        <div class="serviceGrid___unhoveredElement">
+                            <img class="unhoveredElement__img" src="./img/whitePlane.svg" alt="">
+                            <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        </div>
+                    </div>
+                    <div class="serviceGrid__element">
+                        <div class="element__hoveredIcon"></div>
+                        <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        <div class="serviceGrid___unhoveredElement">
+                            <img class="unhoveredElement__img" src="./img/whitePlane.svg" alt="">
+                            <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        </div>
+                    </div>
+                    <div class="serviceGrid__element">
+                        <div class="element__hoveredIcon"></div>
+                        <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        <div class="serviceGrid___unhoveredElement">
+                            <img class="unhoveredElement__img" src="./img/whitePlane.svg" alt="">
+                            <div id="airCargo" class="element__title">АВИАПЕРЕВОЗКИ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  class="fourthImg">
+        <div class="conteiner">
+            <div class="fourthImg__wrapper">
+                <div class="fourthImg__column">
+                    <div class="splitter splitter__margin"></div>
+                    <h2 id="company" class="title title__fourthImg">О КОМПАНИИ</h2>
+                    <h3 id="aboutCompany" class="subTitle subTitle__fourthImg"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</h3>
+                </div>
+                <div class="statisticGrid">
+                    <div class="statisticGrid__element">
+                        <div class="number">48</div>
+                        <div id="ofices" class="mainWord">ОФИСОВ</div>
+                        <div id="oficesCantryes" class="secondaryWord">В Европе и СНГ</div>
+                    </div>
+                    <div class="statisticGrid__element">
+                        <div class="number">361</div>
+                        <div id="cargoCars" class="mainWord">ГРУЗОВИКОВ</div>
+                        <div class="secondaryWord">Volvo, Scania</div>
+                    </div>
+                    <div class="statisticGrid__element">
+                        <img src="./img/track.png" alt="#">
+                    </div>
+                    <div class="statisticGrid__element">
+                        <img src="./img/track.png" alt="#">
+                    </div>
+                    <div class="statisticGrid__element">
+                        <div class="number">1500</div>
+                        <div id="workers" class="mainWord">СОТРУДНИКОВ</div>
+                        <div id="professionals" class="secondaryWord">профессионалов</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="underfourthImg">
+    </div>
+    <div class="map">  
+    </div>
+    <footer id="footer" class="footer">
+        <div class="conteiner">
+            <div class="footer__wrapper">
+                <div class="footer__left">
+                    <a href="page404.html" class="footer__logo">
+                        <img src="./img/footerLogo.svg" alt="">
+                    </a>
+                    <div class="footer__adress">
+                        <div id="adress" class="adress__top">123456, Санкт-Петербург, Невский пр-кт 127</div>
+                        <a href="page404.html" class="adress__bottom">sales@log.ru</a>
+                    </div>
+                </div>
+                <div class="footer__right">
+                    <div class="footer__phoneNumbers">
+                        <div class="number number-top">+7 (812) 344-56-65</div>
+                        <div class="number number-bottom">+7 (812) 355-56-65</div>
+                    </div>
+                    <div id="developed" class="footer__developed">Разработано - D-E-N.ru</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
